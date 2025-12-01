@@ -1,0 +1,5 @@
+/session
+
+day*/.zig-cache/
+day*/src/input.txt
+day*/zig-out/
