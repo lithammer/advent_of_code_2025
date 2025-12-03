@@ -4,7 +4,7 @@
 
 DAY=$(printf '%d' "$1")
 PADDED_DAY=$(printf '%02d' "$DAY")
-DEST="day$PADDED_DAY/input.txt"
+DEST="day$PADDED_DAY/src/input.txt"
 
 curl -s --cookie "session=$(cat session)" "https://adventofcode.com/2025/day/$DAY/input" >"$DEST"
 
